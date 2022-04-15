@@ -1,0 +1,49 @@
+body{
+    font-size: 20px;
+    font-family: serif;
+}
+.careerlogo{
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+nav ul li a{
+    color: #36728e;
+}
+.nav-wrapper{
+    background-color:#B7E3CC;
+}
+.btn{
+    margin-top: 15px;
+    text-transform: initial;
+    padding-right:0.1px;
+    padding-left:0.1px;
+}
+header{
+    background-image: url(../img/yu.jpg);
+background-size: cover;
+background-position: center;
+min-height:500px;
+}
+.hover:hover{
+    color:rgb(245, 11, 11) !important;
+}
+.icons:hover{
+    color:rgb(245, 11, 11) !important;
+}
+.page-footer{
+    background-color:#B7E3CC;
+}
+.page-title{
+    font-size:26px;
+    text-align: center;
+}
+.team:hover{
+ position: relative;
+ left: 60%;
+ width: 100%;
+ transform: scale(2);
+ cursor: pointer;
+ text-align: center;
+ z-index: 1;
+}
