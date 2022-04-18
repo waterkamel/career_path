@@ -1,47 +1,61 @@
-body{
+*{
     font-size: 20px;
-    font-family: serif;
+    font-family: sans-serif;
+    padding: 0;
 }
-.careerlogo{
-    height: 35px;
-    margin-top: 13px;
-    margin-left: 13px;
-}
+
 nav ul li a{
-    color: #36728e;
+    color: #eaf0f3;
 }
 .nav-wrapper{
-    background-color:#B7E3CC;
+    background-color:#0c5630;
 }
+
 header{
-    background-image: url(../img/confusion.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
+    background-image: url(../img/courses.jpg);
+background-size: cover;
+background-position: center;
+min-height:500px;
 }
-.hover:hover{
-    color:rgb(245, 11, 11) !important;
-}
-.icons:hover{
-    color:rgb(245, 11, 11) !important; 
-}
-.sci:hover{
-     color: rgb(74, 93, 83)!important;
-}
-.btn{
-    margin-top: 15px;
-    text-transform: initial;
-    padding-right:0.1px;
-    padding-left:0.1px;
-}
-.me{
-    background-color:#e0f2f1 ; 
-}
-.page-footer{
-    background-color:#B7E3CC;
+
+.container p{
+    align-items: center;
 }
 .page-title{
     font-size:26px;
     text-align: center;
-
 }
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;    
+}
+.content span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* ======----  Footer ----======*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #044b44;
+    color: white;
+  }
